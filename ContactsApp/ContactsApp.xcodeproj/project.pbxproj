@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		47A1D0A1C79C2ED6E2B5D752 /* Pods_ContactsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EC163A75C5102A7CC743DA /* Pods_ContactsApp.framework */; };
+		5F3C316322153CB9005CB26A /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3C316222153CB8005CB26A /* ContactDetailsViewController.swift */; };
+		5F3C31652215474B005CB26A /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3C31642215474B005CB26A /* AddContactViewController.swift */; };
+		5F3C3167221549A8005CB26A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3C3166221549A8005CB26A /* GradientView.swift */; };
 		5F4CB66F221412CF0091C00A /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CB66E221412CF0091C00A /* ContactListViewController.swift */; };
 		5F77F0BB2213EE7A00147410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77F0BA2213EE7A00147410 /* AppDelegate.swift */; };
 		5F77F0BD2213EE7A00147410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77F0BC2213EE7A00147410 /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		1AB052C582DBAD1EE35680A4 /* Pods-ContactsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContactsApp/Pods-ContactsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		42EC163A75C5102A7CC743DA /* Pods_ContactsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3C316222153CB8005CB26A /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		5F3C31642215474B005CB26A /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		5F3C3166221549A8005CB26A /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		5F4CB66E221412CF0091C00A /* ContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		5F77F0B72213EE7A00147410 /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F77F0BA2213EE7A00147410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 		5F77F0B92213EE7A00147410 /* ContactsApp */ = {
 			isa = PBXGroup;
 			children = (
+				5F3C3166221549A8005CB26A /* GradientView.swift */,
+				5F3C31642215474B005CB26A /* AddContactViewController.swift */,
+				5F3C316222153CB8005CB26A /* ContactDetailsViewController.swift */,
 				5F4CB66E221412CF0091C00A /* ContactListViewController.swift */,
 				5F77F0BA2213EE7A00147410 /* AppDelegate.swift */,
 				5F77F0BC2213EE7A00147410 /* ViewController.swift */,
@@ -215,8 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3C31652215474B005CB26A /* AddContactViewController.swift in Sources */,
 				5F77F0BD2213EE7A00147410 /* ViewController.swift in Sources */,
+				5F3C3167221549A8005CB26A /* GradientView.swift in Sources */,
 				5F77F0BB2213EE7A00147410 /* AppDelegate.swift in Sources */,
+				5F3C316322153CB9005CB26A /* ContactDetailsViewController.swift in Sources */,
 				5F4CB66F221412CF0091C00A /* ContactListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
