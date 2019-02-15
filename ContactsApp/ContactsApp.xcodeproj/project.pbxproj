@@ -12,6 +12,9 @@
 		5F3C31652215474B005CB26A /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3C31642215474B005CB26A /* AddContactViewController.swift */; };
 		5F3C3167221549A8005CB26A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3C3166221549A8005CB26A /* GradientView.swift */; };
 		5F4CB66F221412CF0091C00A /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CB66E221412CF0091C00A /* ContactListViewController.swift */; };
+		5F5BF7EE2215622800F44E4A /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5BF7ED2215622800F44E4A /* ContactDetail.swift */; };
+		5F5BF7F02215938600F44E4A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5BF7EF2215938600F44E4A /* Constants.swift */; };
+		5F5BF7F22215A5A700F44E4A /* ContactListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5BF7F12215A5A700F44E4A /* ContactListTableViewCell.swift */; };
 		5F77F0BB2213EE7A00147410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77F0BA2213EE7A00147410 /* AppDelegate.swift */; };
 		5F77F0BD2213EE7A00147410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77F0BC2213EE7A00147410 /* ViewController.swift */; };
 		5F77F0C02213EE7A00147410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F77F0BE2213EE7A00147410 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 		5F3C31642215474B005CB26A /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 		5F3C3166221549A8005CB26A /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		5F4CB66E221412CF0091C00A /* ContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		5F5BF7ED2215622800F44E4A /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
+		5F5BF7EF2215938600F44E4A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5F5BF7F12215A5A700F44E4A /* ContactListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewCell.swift; sourceTree = "<group>"; };
 		5F77F0B72213EE7A00147410 /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F77F0BA2213EE7A00147410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F77F0BC2213EE7A00147410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +75,7 @@
 		5F77F0B92213EE7A00147410 /* ContactsApp */ = {
 			isa = PBXGroup;
 			children = (
+				5F5BF7ED2215622800F44E4A /* ContactDetail.swift */,
 				5F3C3166221549A8005CB26A /* GradientView.swift */,
 				5F3C31642215474B005CB26A /* AddContactViewController.swift */,
 				5F3C316222153CB8005CB26A /* ContactDetailsViewController.swift */,
@@ -79,6 +86,8 @@
 				5F77F0C12213EE9B00147410 /* Assets.xcassets */,
 				5F77F0C32213EE9B00147410 /* LaunchScreen.storyboard */,
 				5F77F0C62213EE9B00147410 /* Info.plist */,
+				5F5BF7EF2215938600F44E4A /* Constants.swift */,
+				5F5BF7F12215A5A700F44E4A /* ContactListTableViewCell.swift */,
 			);
 			path = ContactsApp;
 			sourceTree = "<group>";
@@ -224,12 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F5BF7EE2215622800F44E4A /* ContactDetail.swift in Sources */,
+				5F5BF7F22215A5A700F44E4A /* ContactListTableViewCell.swift in Sources */,
 				5F3C31652215474B005CB26A /* AddContactViewController.swift in Sources */,
 				5F77F0BD2213EE7A00147410 /* ViewController.swift in Sources */,
 				5F3C3167221549A8005CB26A /* GradientView.swift in Sources */,
 				5F77F0BB2213EE7A00147410 /* AppDelegate.swift in Sources */,
 				5F3C316322153CB9005CB26A /* ContactDetailsViewController.swift in Sources */,
 				5F4CB66F221412CF0091C00A /* ContactListViewController.swift in Sources */,
+				5F5BF7F02215938600F44E4A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

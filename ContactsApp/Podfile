@@ -9,5 +9,6 @@ target 'ContactsApp' do
   pod 'Alamofire'
   pod 'SwiftyJSON', '~> 4.0'
   pod 'Kingfisher', '~> 5.0'
+  pod 'SVProgressHUD'
 
 end
